@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+#mainContent{
+   height: 100vh;
+   display: flex;
+  
+}
+.left-section{
+    background-image: url(../images/d.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30%;     
+}
+.logo{
+    position: relative;
+    top: 8rem;
+    padding-left: 2rem;
+    display: flex;
+    background-color:  rgba(84, 84, 105,.4);
+    color: #ffffff;
+}
+.logo h3{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+.right-section{
+    background-color: #d6d9dc;
+    width: 70%;
+}
+.sign-intro{
+    text-align: justify;
+    margin: 2rem 4rem;
+}
+
+.signUp-form{
+        background-color: #f6f7f8;
+        border: 1px solid #d6d9dc;
+        width: 100%;    
+        
+}
+.parts{
+    margin-bottom: .6em;
+    display: flex;
+    padding: .5rem;
+    font-size: 0.8rem;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 4rem;
+    padding-right: .5rem;
+}
+button{
+    background-color: #3f1818;
+    border-radius: 6px;
+    color: white;
+    border-color: 1px solid transparent;
+    width: 30%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+.logIn-link{
+    margin-left: 5rem;
+    margin-top: .5rem;
+}
+
